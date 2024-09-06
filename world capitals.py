@@ -11,7 +11,11 @@ while True:
     
     if a.upper() == result[numer].upper():
       print("YAY!")
-    elif a.upper() == "q":
+      text.pop(numer)
+      result.pop(numer)
+      if len(text) == 0:
+        exit()
+    elif a.upper() == "Q":
       exit()
     else:
       print(result[numer])
