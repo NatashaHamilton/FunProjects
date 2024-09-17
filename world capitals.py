@@ -14,9 +14,9 @@ while True:
       text.pop(numer)
       result.pop(numer)
       if len(text) == 0:
-        exit()
+        quit()
     elif a.upper() == "Q":
-      exit()
+      quit()
     else:
       print(result[numer])
   except:
