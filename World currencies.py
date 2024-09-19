@@ -11,6 +11,7 @@ while len(countries) > 0:
 
     if a == currencies[i].upper():
         print("YAY!")
+        points += 1
     else:
         print(currencies[i])
 
